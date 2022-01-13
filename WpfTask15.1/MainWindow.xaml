@@ -1,0 +1,343 @@
+﻿<Window x:Class="WpfTask15._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTask15._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="600" Foreground="#FFB610F7" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer">
+            <FlowDocument>
+                <Paragraph>
+                    КЛАССИФИКАЦИЯ СОРТОВ РОЗ
+                    <Hyperlink NavigateUri="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_%D1%80%D0%BE%D0%B7">ПО КЛАССАМ</Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    ВИДЫ РОЗ
+                </Paragraph>
+                
+                <List MarkerStyle="Square">
+                    <ListItem>
+                        <Paragraph>
+                            ЧАЙНО-ГИБРИДНЫЕ
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <List MarkerStyle="Square">
+                    <ListItem>
+                        <Paragraph>
+                            ФЛОРИБУНДЫ
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <List MarkerStyle="Square">
+                    <ListItem>
+                        <Paragraph>
+                            МИНИАТЮРНЫЕ, ПАТИО РОЗЫ
+                        </Paragraph>
+                    </ListItem>
+                </List>
+
+                <Paragraph >
+                    
+                </Paragraph>
+
+                <Paragraph>
+                    ЧАЙНО-ГИБРИДНЫЕ
+                </Paragraph>
+
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="150" />
+                        <TableColumn Width="Auto" />
+                    </Table.Columns>
+                    
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сорт Black Baccara
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="250" HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="image/Black Baccara.png"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            
+                        </TableRow>
+                        
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Селекция
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Meilland, 2004г.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Размер куста
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    высота 100-110 см, ширина 80см.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Цветок
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    8-9 см; махровый, бокаловидной формы.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Цветение
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    повторное.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Аромат
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    легкий.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                
+                <Paragraph >
+
+                </Paragraph>
+
+                <Paragraph>
+                    ФЛОРИБУНДЫ
+                </Paragraph>
+
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="150" />
+                        <TableColumn Width="Auto" />
+                    </Table.Columns>
+
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сорт Eyes for You
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="250" HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="image/iceforyou.png"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Селекция
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Peter J. Jemes, 2008г.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Размер куста
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    высота 90-110 см, ширина: 70-80см.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Цветок
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    полумахровый 9-16 лепестков, диаметром около 10см, цветет небольшими кистями.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Цветение
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    повторное очень обильное, в течение всего сезона до заморозков.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Аромат
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    сильный опьяняющий.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph >
+
+                </Paragraph>
+
+                <Paragraph>
+                    МИНИАТЮРНЫЕ, ПАТИО РОЗЫ
+                </Paragraph>
+                
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="150" />
+                        <TableColumn Width="Auto" />
+                    </Table.Columns>
+
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сорт Капри
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="250" HorizontalAlignment="Center">
+                                        <BlockUIContainer>
+                                            <Image Source="image/capri.png"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+
+                        </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Селекция
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Тантау 2014г.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Размер куста
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    высота 70-90см.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Цветок
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    8-10см.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Цветение
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    повторное обильное.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Аромат
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    сильный фруктов и меда.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Open" Width="100" Click="Button_Click_2"/>
+            <Button Content="Save" Width="100" Click="Button_Click_1"/>
+            <Button Content="Clean" Width="100" Click="Button_Click"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
